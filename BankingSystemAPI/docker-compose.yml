@@ -1,0 +1,8 @@
+﻿ version: "3.7"
+
+ services:
+   app:
+     image: ccarreon7/bankingsystem_api
+     ports:
+       - 8080:80
+     working_dir: /app
